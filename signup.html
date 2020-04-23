@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- formulario  estructura
+
+    1 destino - action (endpoint)
+    2  método de envío - GET / POST
+    3 datos - inputs
+    4 botón para enviar 
+    -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <!-- (h1)+(table>tr*8>td*2) -->
+    
+
+
+    <h1>Formularios viejuners</h1>
+
+    <form action="/registerUser" method="GET" autocomplete="on"> </form>
+   
+  
+  
+         <table>
+             
+        
+         <tr>
+             <td><label for="userName">Your Name<label>
+            </td>
+            <td><input type="password"  id="UserPass"name="" tabindex="1"></td>
+         </tr>
+         <tr>
+             <td><label for="GenderM">Género<label>
+            </td>
+            <td>
+                Mujer<input type="radio"  id="GenderM"name="gender" value="M" required>
+                Hombre<input type="radio"  id="GenderH"name="gender" value="H">
+                Otro<input type="radio"  id="Gender="name="gender" value="O">
+         </tr>
+         <tr>
+             <td><label for="country">País<label>
+            </td>
+            <td><select name="country" id="country">
+                <option value="">-- selecciona tu país --</option>
+                <option value="es ">España</option>
+                <option value="fr">Francia</option>
+                <option value="en">Inglaterra</option>
+
+            </select>></td>
+         </tr>
+         <tr>
+             <td>
+            <label for="Comments">Comentarios<label>
+            </td>
+            <td><textarea name="Comments" id="Comments"  placeholder="Escribe aquí"></textarea>
+            </td>
+         </tr>
+         <tr>
+             
+            <td><input type="checkbox"  id="accept" value="ok" required> Acepto condiciones
+            
+            </td>
+         </tr>
+         <tr>
+             <td> <div colspan="2"></div> 
+                <td><input type="submit"  value="Registrarme"></td>
+
+             </td>
+         </tr>
+         <tr>
+             <td></td>
+         </tr>
+        
+        </table>
+</body>
+</html>

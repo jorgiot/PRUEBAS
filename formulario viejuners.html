@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios viejuners</title>
+
+    
+</head>
+<body>
+    <!-- (h1)+(table>tr*8>td*2) -->
+
+    <h1>Formularios viejuners</h1>
+
+    <form action="/registerUser" method="GET" autocomplete="on">
+     
+    </form></fieldset>
+    <fieldset>
+    <img src="abueletes.jpg" alt="vejetes foto">
+
+
+
+<h2>El club viejuner</h2>
+
+<table>
+   
+    Nombre <tr>
+        <td>
+            <label for="userName">Nombre <label>
+        </td>
+        <td>
+            <input type="password"  id="UserPass"name="" tabindex="1" autofocus>
+        </td>
+    </tr>
+
+    Apellidos <tr>
+        <td>
+            <label for="userName">Apellidos<label>
+        </td>
+        <td>
+            <input type="password"  id="UserPass"name="" tabindex="1">
+        </td>
+    </tr>
+
+    Edad  <tr>
+        <td>
+            <label for="number">Edad<label>
+        </td>
+
+        <td> <input type="number"   required> 
+        
+        </td>
+     </tr>
+    
+     Sexo   <tr>
+        <td>
+            <label for="GenderM">Sexo<label>
+        </td>
+        
+        <td>
+            Mujer<input type="radio"  id="GenderM"name="gender" value="M" required>
+            Hombre<input type="radio"  id="GenderH"name="gender" value="H">
+            Otro<input type="radio"  id="Gender="name="gender" value="O">
+        </td>
+    </tr>
+
+    me siento viejuner<tr>
+      
+        <td>
+            <input type="checkbox"  id="accept" value="ok" required>
+            <label for="checkbox">  me siento viejuner</label>
+        </td>
+
+     </tr>
+   
+     Escribe algo sobre ti <tr>
+        <td>
+        <label for="Comments">Escribe algo sobre ti<label>
+        </td>
+
+        <td>
+            <textarea name="Comments" id="Comments"  placeholder="Escribe aquí"></textarea>
+        </td>
+    </tr>
+
+    Email<tr>
+        <td>
+            <label for="email">Email<label>
+        </td>
+        <td>
+            <input type="email"  id="UserPass"name="" tabindex="">
+        </td>
+    </tr>
+
+    Teléfono <tr>
+         <td>
+            <label for="tel">Teléfono<label>
+        </td>
+        <td>
+            <input type="tel"  id="UserPass"name="" tabindex="">
+        </td>
+    </tr>
+
+</table>
+
+
+<h2>Los ladronzuelos de bicicletas</h2>
+
+<table>
+
+    Fecha<tr>
+    <td>
+        <label for="date">Fecha <label>
+    </td>
+    <td>
+        <input type="date"  id="UserPass"name="" tabindex="1" autofocus>
+    </td>
+</tr>
+
+Tiempo<tr>
+    <td>
+        <label for="time">Tiempo<label>
+    </td>
+    <td>
+        <input type="time"  id="UserPass"name="" tabindex="1">
+    </td>
+</tr>
+
+Color <tr>
+    <td>
+        <label for="color">Color<label>
+    </td>
+
+  <td> <input type="color"   required> 
+    
+    </td>
+ </tr>
+
+ Precio <tr>
+ <td>
+        <label for="precio">Precio (entre 50€ and 5.000€):</label>
+        <input type="range" id="precio" name="precio" min="50" max="5000">
+    </td>
+
+ </tr>
+
+ Tipo de bicicleta <tr>
+  
+    <td>
+
+    <label for="Tipo">Tipo de bicicleta<label>
+
+    <select id="Tipo">
+      <optgroup label="Paseo">
+        <option value="Señorial">Señorial</option>
+        <option value="Anti-plebeyos">Anti-plebeyos</option>
+      </optgroup>
+      <optgroup label="Montaña">
+        <option value="Gamusinos">Gamusinos</option>
+        <option value="Hueleflores premium">Hueleflores premium</option>
+        <option value="Fango lover">Fango lover</option>
+      </optgroup>
+      <optgroup label="Carreras">
+        <option value="Metroymedio">Metroymedio</option>
+        <option value="3 de la tarde. Fluorescente edition">3 de la tarde. Fluorescente edition</option>
+        <option value="Grupitors">Grupitors</option>
+      </optgroup>
+    </select>
+
+   </td>
+
+</tr>
+
+Accesorios <tr>
+   <td>
+        <label for="Accesorios">Accesorios<label>
+   </td>
+
+ <td>
+       <select name="Accesorios" id="Accesorios">
+       <option value="Ruedines">Ruedines</option>
+       <option value="Pegatinas">Pegatinas</option>
+       <option value="Cestita">Cestita</option>
+       <option value="Bomba de aire">Bomba de aire</option>
+       <option value="Timbre">Timbre</option>
+       <option value="Timbre">Foco</option>
+   </select>
+
+   </td>
+</tr>
+
+Marca 1 <tr>
+<td>
+    <label for="Marca">Marca<label>
+</td>
+
+<td>
+    <input type="text" id="marca" name="marca"autocomplete="on">
+    <input type="submit" value="Enviar"/> 
+
+
+
+</td>
+</tr>
+
+Marca <tr>
+  
+    <td>
+
+        <label for="Marca">Marca<label>
+
+    <select id="Tipo" aria-autocomplete="both">
+     
+        <option value="specialized">specialized</option>
+        <option value="trek">trek</option>
+        <option value="merida">merida</option>
+        <option value="scott">scott</option>
+        <option value="giant">giant</option>
+        <option value="cube">cube</option>
+        <option value="orbea">orbea</option>
+        <option value="cannondale">cannondale</option>
+        <option value="bmc">bmc</option>
+        <option value="canyon">canyon</option>
+        <option value="look">look</option>
+        <option value="protek">protek</option>
+        <option value="megamo">megamo</option>
+        <option value="pinarello">pinarello</option>
+        <option value="bianchi">bianchi</option>
+        <option value="bh">bh</option>
+        <option value="factor">factor</option>
+        <option value="ghost">ghost</option>
+        <option value="cervélo">cervélo</option>
+        <option value="argon">argon</option>
+
+    </select>
+
+   </td>
+
+</tr>
+
+
+</table>
+</body>
+</html>
